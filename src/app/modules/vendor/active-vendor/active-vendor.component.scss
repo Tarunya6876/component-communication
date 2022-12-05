@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+  }
+  tr:hover {background-color: coral;}
+  
+  .button:hover {background-color: #4a3e8e}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

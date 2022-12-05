@@ -1,1 +1,15 @@
-<p>active vendor</p>
+<table  >
+    <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>CITY</th>
+        <th>Click</th>
+      </tr>
+      <tr *ngFor="let i of activevendorname">
+        <td>{{i.name}}</td>
+        <td>{{i.age}}</td>
+        <td>{{i.city}}</td>
+        <td><button (click)='OnselectedVendor(i)'>Click me</button></td>
+      </tr>
+</table>
+
